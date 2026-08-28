@@ -11,11 +11,11 @@ API_HASH = os.environ.get("API_HASH", "9233e5deebe6abfc9ba297a9678851be")
 
 
 OWNER_ID = int(os.environ.get("OWNER_ID", "8035487404"))
-DB_URL = os.environ.get("DB_URL", "mongodb+srv://sanjusen212121_db_user:9FrhkyF5NLOcvjGd@cluster0.uj28qw8.mongodb.net/?appName=Cluster0")
+DB_URL = os.environ.get("DB_URL", "mongodb+srv://sanjusen212121_db_user:P24kTmNQrOU7PdtW@cluster0.363hgqh.mongodb.net/?appName=Cluster0")
 DB_NAME = os.environ.get("DB_NAME", "madflixbotz")
 
 
-CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1004489905745"))
+CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1004348130514"))
 FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "0"))
 
 
