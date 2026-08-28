@@ -11,7 +11,7 @@ API_HASH = os.environ.get("API_HASH", "9233e5deebe6abfc9ba297a9678851be")
 
 
 OWNER_ID = int(os.environ.get("OWNER_ID", "8035487404"))
-DB_URL = os.environ.get("DB_URL", "mongodb+srv://sanjusen212121_db_user:P24kTmNQrOU7PdtW@cluster0.363hgqh.mongodb.net/?appName=Cluster0")
+DB_URL = os.environ.get("DB_URL", "mongodb+srv://sanjusen212121_db_user:BKS7sIx9Yj5fJWuM@cluster0.anenayd.mongodb.net/?appName=Cluster0")
 DB_NAME = os.environ.get("DB_NAME", "madflixbotz")
 
 
@@ -28,7 +28,7 @@ TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
 
 
 try:
-    ADMINS=[5539467127]
+    ADMINS=[8035487404]
     for x in (os.environ.get("ADMINS", "8035487404").split()):
         ADMINS.append(int(x))
 except ValueError:
